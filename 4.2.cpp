@@ -187,7 +187,7 @@ int main() {
     std::cout << "After pop: " << char_stack.top() << std::endl;
 
 
-    #ifdef False
+    #if 0
     Stack<char, std::forward_list<char>> invalid_stack; // Doesn't have size method
     #endif
 
