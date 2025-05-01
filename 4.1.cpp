@@ -112,7 +112,7 @@ int main() {
 
     // List => error
 
-    # ifdef False
+    # if 0
     std::cout << "List:" << std::endl;
     std::list<int> lst;
     for (int i = 0; i < size; ++i) {
